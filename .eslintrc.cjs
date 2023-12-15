@@ -18,6 +18,7 @@ module.exports = {
     'no-dupe-args': 'error',
     'no-unreachable': 'error',
     'no-unused-vars': 'warn',
+    'import/extensions': ['error', 'ignorePackages'],
   },
   plugins: ['import'],
 };
